@@ -1,5 +1,5 @@
-:has(img[src*="165616321592164352"]) div[aria-label="User Badges"]::before,
-:has(img[src*="165616321592164352"]) div[aria-label="User Badges"]::after {
+[role="dialog"]:has(img[src*="165616321592164352"]) div[aria-label="User Badges"]::before,
+[role="dialog"]:has(img[src*="165616321592164352"]) div[aria-label="User Badges"]::after {
   content: " ";
   display: inline-block;
   background-image: url(https://cdn.discordapp.com/emojis/1086160970226864181.webp);
@@ -12,7 +12,7 @@
   margin-right: 2px;
 }
 
-:has(img[src*="165616321592164352"]) div[aria-label="User Badges"]::after {
+[role="dialog"]:has(img[src*="165616321592164352"]) div[aria-label="User Badges"]::after {
   background-image: url(https://cdn.discordapp.com/emojis/1063276004510027867.webp?animated=true);
   margin-left: 2px;
   border-radius: 0px;
